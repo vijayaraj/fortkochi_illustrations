@@ -9,6 +9,10 @@ h1{
   font-weight: 500;
 }
 
+a {
+  text-decoration: none;
+}
+
 .intro {
   font-size: 20px;
   line-height: 1.5;
@@ -27,7 +31,7 @@ h1{
 .intro-footer img {
   float: left;
   display: inline-block;
-  margin-right: 3%;
+  margin-right: 10px;
 }
 
 .intro-footer p {
@@ -42,8 +46,19 @@ h1{
   border-left: 1px solid #dfdfdf;
 }
 
-.intro-footer p.with-border span {
+.social-icons {
+  font-size: 24px;
+  color: #D0D0D0;
+  margin-right: 12px;
+}
+
+.social-icons:hover {
+  color: #333;
+}
+
+.intro-footer p.with-border .ml5 {
   margin-left: 5px;
+  margin-right: 5px;
 }
 
 @media (min-width: 45em) {
@@ -92,6 +107,18 @@ h1{
     display: inline-block;
     margin-top: 10px;
   }
+
+  .intro {
+    margin-top: 15%;
+  }
+
+  .intro-footer {
+    margin-left: 10%;
+  }
+
+  .hide-in-mobile {
+    display: none;
+  }
 }
 
 .title {
@@ -116,4 +143,10 @@ h1{
 .img {
   margin-top: 8%;
   margin-bottom: 8%;
+}
+
+.love {
+  font-size: 10px;
+  color: red;
+  margin: 0px;
 }
