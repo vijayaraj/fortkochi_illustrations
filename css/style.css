@@ -11,6 +11,11 @@ h1{
 
 a {
   text-decoration: none;
+  color: #365899;
+}
+
+a:hover {
+  color: #365899;
 }
 
 .intro {
@@ -126,23 +131,21 @@ a {
 }
 
 .img-list {
-  margin: 20px;
+  margin: 20px 0px;
   text-align: center;
 }
 
 .img-content {
-  margin-top: 30px;
-  margin-bottom: 30px;
   border-bottom: 2px solid #EFF2F4;
 }
 
 .img-title {
+  margin-top: 30px;
   font-size: 24px;
 }
 
 .img {
-  margin-top: 8%;
-  margin-bottom: 8%;
+  margin: 8% 20px;
 }
 
 .love {
